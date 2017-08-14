@@ -1,7 +1,7 @@
 {
   "name": "camel-case-props",
   "version": "1.0.0",
-  "description": "a utility function which returns a new object with all props camel cased",
+  "description": "recursive utility function which clones an object with all props camel cased",
   "main": "index.js",
   "dependencies": {
     "lodash": "^4.17.4"
@@ -17,7 +17,8 @@
   },
   "scripts": {
     "pretest": "standard",
-    "test": "ava"
+    "test": "ava",
+    "prepublish": "npm test"
   },
   "repository": {
     "type": "git",
