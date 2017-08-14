@@ -1,8 +1,8 @@
 {
   "name": "camel-case-props",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "recursive utility function which clones an object with all props camel cased",
-  "main": "index.js",
+  "main": "camel-case-props.js",
   "dependencies": {
     "lodash": "^4.17.4"
   },
