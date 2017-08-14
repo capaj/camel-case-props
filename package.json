@@ -1,0 +1,37 @@
+{
+  "name": "camel-case-props",
+  "version": "1.0.0",
+  "description": "a utility function which returns a new object with all props camel cased",
+  "main": "index.js",
+  "dependencies": {
+    "lodash": "^4.17.4"
+  },
+  "ava": {
+		"files": [
+			"**/*.spec.js"
+    ]
+  },
+  "devDependencies": {
+    "ava": "^0.21.0",
+    "standard": "^10.0.3"
+  },
+  "scripts": {
+    "pretest": "standard",
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/capaj/camel-case-props.git"
+  },
+  "keywords": [
+    "camel",
+    "case",
+    "object"
+  ],
+  "author": "capajj@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/capaj/camel-case-props/issues"
+  },
+  "homepage": "https://github.com/capaj/camel-case-props#readme"
+}
